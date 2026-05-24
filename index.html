@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnA지원포탈</title>
+</head>
+<body>
+<h1>이름, 학번, 전화번호, 지원동기 & 이루고 싶은 목표 등을 써주세요</h1>
+<form action="/submit" method="post" enctype="multipart/form-data">
+  <label>이름: <input name="name" required></label><br>
+  <label>학번: <input name="number" required></label><br>
+  <label>전화번호: <input name="phone_number" required></label><br>
+  <label>지원동기: <input name="donge" required></label><br>
+  <label>파일: <input type="file" name="file" required></label><br>
+  <button type="submit">보내기</button>
+</form>
+</body>
+</html>
